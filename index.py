@@ -4,28 +4,28 @@ import math
 from function import welcome , name
 
 
-print('hello world')
-# Type custing
-x = str(3)    # x will be '3'
-y = int(3)    # y will be 3
-z = float(3)  # z will be 3.0
-print(x);
-print(y);
-print(z);
-# Unpack a Collection
-print("--------- Unpacking a Collection -----------");
-fruits = ["apple", "banana", "cherry"]
-x, y, z = fruits
-print(x);
-print(y);
-print(z);
+# print('hello world')
+# # Type custing
+# x = str(3)    # x will be '3'
+# y = int(3)    # y will be 3
+# z = float(3)  # z will be 3.0
+# print(x);
+# print(y);
+# print(z);
+# # Unpack a Collection
+# print("--------- Unpacking a Collection -----------");
+# fruits = ["apple", "banana", "cherry"]
+# x, y, z = fruits
+# print(x);
+# print(y);
+# print(z);
 
-print('----------- Many Values to Multiple Variables -----------');
+# print('----------- Many Values to Multiple Variables -----------');
 
-x,y,z = "AAA", 'BBB', 'CCC'
-print(x);
-print(y);
-print(z);
+# x,y,z = "AAA", 'BBB', 'CCC'
+# print(x);
+# print(y);
+# print(z);
 
 # print('------------- Input ----------------')
 
@@ -49,13 +49,16 @@ print(z);
 # else:
 #     print("Good Night!")
 
-print('------------ Math Function ------------')
+# print('------------ Math Function ------------')
 
-result = math.sqrt(16)
-print(result)
-print(dir(math))
+# result = math.sqrt(16)
+# print(result)
+# print(dir(math))
 
-print('----------- Funciton -------------')
+# print('----------- Funciton -------------')
 
-print(welcome())
-print(name)
+# print(welcome())
+# print(name)
+
+print('-------- Welcome Function --------')
+
