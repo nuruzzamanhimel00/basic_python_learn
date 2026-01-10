@@ -60,5 +60,34 @@ from function import welcome , name
 # print(welcome())
 # print(name)
 
-print('-------- Welcome Function --------')
+# print('-------- Welcome Function --------')
+
+# print("------------ lambda function ------------")
+# x = lambda a: a + 10
+# print(x(5))
+
+# x = lambda a , b : a * b
+# print(x(5, 6))
+
+print('------------- Map, Filter, Reduce -------------')
+from functools import reduce
+
+l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+def myFunction(x):
+    return x * x
+def testFunction(x):
+    return x > 5
+
+# print(list(map(myFunction, l)))
+# print(list(map(lambda x: x * x, l)))
+# print(list(filter(testFunction, l)))
+# print(list(filter(lambda x: x > 5, l)))
+# print(list(map(lambda x: x * x, l)))
+
+len = [1, 2, 3, 4]  
+
+print(reduce(lambda x, y : x +y , len))
+
+
 
